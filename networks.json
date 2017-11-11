@@ -53,5 +53,19 @@
       "symbol":"DѦ",
       "explorer":"http://dexplorer.ark.io"
     }
+  },
+  "rchain": {
+    "messagePrefix": "RChain message:\n",
+    "bip32": {
+      "public": 70617039,
+      "private": 70615956
+    },
+    "pubKeyHash": 43,
+    "wif": 187,
+    "client": {
+      "token":"RCHAIN",
+      "symbol":"RC",
+      "explorer":"http://rexplorer.ark.io"
+    }
   }
 }

@@ -1,0 +1,149 @@
+{
+  "port": 4100,
+  "address": "0.0.0.0",
+  "version": "0.0.1",
+  "fileLogLevel": "info",
+  "logFileName": "logs/ark.log",
+  "consoleLogLevel": "debug",
+  "trustProxy": false,
+  "db": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "ark_rchain",
+    "user": null,
+    "password": "password",
+    "poolSize": 20,
+    "poolIdleTimeout": 30000,
+    "reapIntervalMillis": 1000,
+    "logEvents": [
+      "error"
+    ]
+  },
+  "api": {
+    "mount": true,
+    "access": {
+      "whiteList": []
+    },
+    "options": {
+      "limits": {
+        "max": 0,
+        "delayMs": 0,
+        "delayAfter": 0,
+        "windowMs": 60000
+      }
+    }
+  },
+  "peers": {
+    "minimumNetworkReach": 1,
+    "list": [
+      {
+        "ip": "127.0.0.1",
+        "port": 4100
+      },
+      {
+        "ip": "127.0.0.2",
+        "port": 4100
+      },
+      {
+        "ip": "127.0.0.3",
+        "port": 4100
+      },
+      {
+        "ip": "127.0.0.4",
+        "port": 4100
+      },
+      {
+        "ip": "127.0.0.5",
+        "port": 4100
+      }
+    ],
+    "blackList": [],
+    "options": {
+      "limits": {
+        "max": 0,
+        "delayMs": 0,
+        "delayAfter": 0,
+        "windowMs": 60000
+      },
+      "maxUpdatePeers": 20,
+      "timeout": 5000
+    }
+  },
+  "forging": {
+    "coldstart": 6,
+    "force": true,
+    "secret": [
+      "trap middle pioneer party season divorce disease wire peace stand west snap",
+      "wild rich sample simple hair faith menu symptom dynamic canvas dumb misery",
+      "today person quote goddess alter harvest globe board virus sell whip rapid",
+      "prepare spin announce equal sweet aim jar remind bread middle chapter sphere",
+      "foster right junior pigeon beauty usual clog parade bid coffee fiction render",
+      "gloom tragic stone silent success giant direct ghost gorilla girl file sadness",
+      "wheel entire mechanic piano social smile hospital boring weasel start tooth agent",
+      "before short taxi spring girl knee seven company process target relief assume",
+      "scale ceiling crouch dad crawl toy spirit fence sting embark round where",
+      "jazz fire because install aunt depend spice tragic immense carry settle drum",
+      "hood trouble patrol require labor addict crumble infant phone voice pet enable",
+      "burger junior net diary recipe work rain slab track volume hybrid approve",
+      "mouse laundry life inflict deliver sausage hint click discover young rookie bus",
+      "jewel alter cruise input spend exact guide satoshi embrace ginger survey drink",
+      "kiss front panel robot check anchor mistake neglect jump gold reform garlic",
+      "food around pepper action figure silly outer glow foil strategy cool month",
+      "update pond ball regular express film license north absorb security clip large",
+      "small bus behave bonus leg armor subway lonely wheel claw manage stove",
+      "excite insane million motion worth angle shrug another route whale street carpet",
+      "retreat cannon pink mandate woman oil rather rib reopen found child moon",
+      "art daughter addict holiday innocent estate great engage idle total window laundry",
+      "bulk gun bulk film crisp again mistake drastic toast apart agree idea",
+      "sorry alpha olympic cotton couple tired sauce roast fix swap cool sell",
+      "half thank present lunar notice tilt arrest music deliver sun erupt segment",
+      "aim keen roof mammal tower comfort tube camp snap visual grace body",
+      "young nest mammal fiscal bleak layer enable left sell field enrich butter",
+      "cliff panther remember salmon weather bless battle kiwi ceiling false salmon width",
+      "emotion episode use public cotton ill gold fossil nuclear differ high minimum",
+      "shiver zone occur cool panda miracle double public lawsuit symbol noodle industry",
+      "duck silk pilot limb oxygen ski mimic ribbon great reject virtual sphere",
+      "mandate loan remind modify submit typical creek faith business craft pattern hamster",
+      "acquire clay aunt disorder tribe wonder sorry increase damp apple solution excite",
+      "lunar skill orchard excite drift reveal stamp depend foot century post emotion",
+      "dad movie coffee mosquito rack crouch beach motion spare verb kitchen country",
+      "file option fence heavy park solve payment lamp sense enforce program horn",
+      "say theme youth harbor powder parent answer super flat flee blossom argue",
+      "under clerk dinosaur bunker primary someone oblige exchange bitter crew carry inside",
+      "energy tragic fox fiction recall sibling seed spread attend mail marriage snow",
+      "panther swap now say body limit fancy betray ranch awesome slice vault",
+      "joy guess report catch tunnel blue decorate song safe surprise control miss",
+      "pizza emerge cabin peasant govern life mammal provide flee work bright book",
+      "knee enable length call token artwork fan staff easily evidence link scene",
+      "flag oxygen jump point issue gospel party blast finger loan only apology",
+      "floor axis then yellow mass ski announce kitten target guard opera kid",
+      "curve knock cloud camera hurt chimney myself pave clip recall connect slam",
+      "dentist pole wage poem rigid ritual direct embrace wide sauce message country",
+      "grace confirm crumble inquiry bargain radio torch gasp vicious merry dance harvest",
+      "neck resource message flower harsh carry whisper quick grit cram jacket object",
+      "dismiss deer minimum credit decline smooth slogan garlic guess lobster task update",
+      "juice profit equal tattoo steak size pigeon oyster ostrich harbor ordinary fruit",
+      "stairs erosion glue nation eager inquiry sunset orchard flower speak demand skull"
+    ],
+    "access": {
+      "whiteList": [
+        "127.0.0.1"
+      ]
+    }
+  },
+  "loading": {
+    "verifyOnLoading": false,
+    "loadPerIteration": 5000
+  },
+  "ssl": {
+    "enabled": false,
+    "options": {
+      "port": 443,
+      "address": "0.0.0.0",
+      "key": "./ssl/ark.key",
+      "cert": "./ssl/ark.crt"
+    }
+  },
+  "network": "rchain",
+  "nethash": "de3fea6569a5848e7b7d558325cf3990defc0ca0b8e71911e0308b71022a2077"
+}

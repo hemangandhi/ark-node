@@ -52,7 +52,7 @@ function schema(network){
     try {
       var vendorField = new Buffer(str);
 
-      return vendorField.length < 65;
+      return vendorField.length < 10000;
     } catch (e) {
       return false;
     }
