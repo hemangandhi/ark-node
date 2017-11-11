@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS "transactions"(
   "signature" bytea NOT NULL,
   "signSignature" bytea,
   "requesterPublicKey" bytea,
-  "vendorField" VARCHAR(256),
+  "vendorField" VARCHAR(512),
   "signatures" TEXT,
   "rawasset" TEXT,
   FOREIGN KEY("blockId") REFERENCES "blocks"("id") ON DELETE CASCADE
