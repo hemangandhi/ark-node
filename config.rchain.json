@@ -71,7 +71,7 @@
   },
   "forging": {
     "coldstart": 6,
-    "force": true,
+    "force": false,
     "secret": [],
     "access": {
       "whiteList": [
