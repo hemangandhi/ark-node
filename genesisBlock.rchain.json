@@ -21,7 +21,7 @@
       "signature": "304402203a4b3b3d8516a5bd535c510c02199427386ff56559737a1d72315f08f0f7f0d5022044fa609eb5b86adb91797b803ffe14ad3d28737d1841ad4ad848babe419cb8ed",
       "id": "973562a915bb7d9d0d54dc16f2fec1a8472d477a216bc263abe8ef1e7beec960",
       "senderId": "JR2Aq87Ru5hD3hLASx67v8NRCfGf8gjKCV",
-      "vendorField": "this is totally more than 64 bytes, right? Maybe? Yes? I hope. Let's see... Loong Long. Millie rock. Weird. Ez. Random shit."
+      "vendorField": "{\"content\": \"Welcome to RChain\", \"id\": 0, \"votes\": 0, \"parent\": 0, \"sub\": \"\"}"
     },
     {
       "type": 2,
@@ -38,7 +38,8 @@
       },
       "signature": "3044022046f95be8e61725c53a1c9f32e3d12d446acc2998a4cd1afe0d119a1e514491ca02206d6e56de79ee69fce13300708b0b831dbe8e5ab249d508d08c6fd80be894e674",
       "id": "0a196bbabbbfbbaec37aaca9baefdbd9399f5924815726fed11711ef988b43ed",
-      "senderId": "JW2KUovJsNnoRoozZxQmVTcyfi4e1GNWqG"
+      "senderId": "JW2KUovJsNnoRoozZxQmVTcyfi4e1GNWqG",
+      "vendorField": "{\"content\": \"This is the blockchain Reddit.\", \"id\": 1, \"votes\": 0, \"parent\": 0, \"sub\": \"\"}"
     },
     {
       "type": 2,
@@ -55,7 +56,8 @@
       },
       "signature": "3045022100a6a344e2accd770f368f1c4072cbbbb4016a0eb8053ab42c2498074431a0823a0220055b05e47721ce1e0c10f0c92addb28d32e03fbde3e25a57db5ab561750dfe00",
       "id": "a5635539fc527cfc6fcc01e17dc549686c75aabd7197931842443f4a41a2369f",
-      "senderId": "JSp9SsFyCdjYiPCmFEK2t9J5agz6N5ddtG"
+      "senderId": "JSp9SsFyCdjYiPCmFEK2t9J5agz6N5ddtG",
+      "vendorField": "{\"content\": \"And it works!\", \"id\": 2, \"votes\": 0, \"parent\": 2, \"sub\": \"\"}"
     },
     {
       "type": 2,
@@ -72,7 +74,8 @@
       },
       "signature": "3045022100d9686bf5ef61c45847da6bd0e2c9ec8ebcea4517ec98a1655e0ca8fe41dfd175022073f6ebd8eb28f4aedb9e0907faca47ac650e55e3631d866f137e2de65d5c07dd",
       "id": "876427c4583c0365dd14ea4018ae6e1f595ce49d50210ae99811dbafedb321d8",
-      "senderId": "Jb7SkNLxGoGx5gq2Z3NekpN52G3Z7b5ybs"
+      "senderId": "Jb7SkNLxGoGx5gq2Z3NekpN52G3Z7b5ybs",
+      "vendorField": "{\"content\": \"And you can't censor it. Ever.\", \"id\": 3, \"votes\": 0, \"parent\": 2, \"sub\": \"\"}"
     },
     {
       "type": 2,
